@@ -1,0 +1,27 @@
+body {
+	margin: 0 auto;
+	background-image: url(travel-1677347);
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+
+}
+
+table, th, td {
+	width: 50%;
+	margin: auto;
+	border: 1px solid white;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 15px;
+	table-layout: fixed;
+	background: blue;
+	opacity: 0.5;
+	color: white;
+	margin-top: 80px;
+}
+th, td {
+	padding: 20px;
+	opacity: 0.9;
+}
+

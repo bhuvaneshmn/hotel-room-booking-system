@@ -1,0 +1,105 @@
+body
+{
+	margin: 0 auto;
+	background-image: url('bedroom-1940168.jpg');
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 250vh;
+}
+
+.bg1{
+	background-image: url('hotel-room-1447201.jpg');
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+.loginbox
+{
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 1120px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+
+.image
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: : calc(50% -50px);
+}
+
+h2
+{
+	margin: 0
+	padding: 0 0 20px;
+	color: #efeD40;
+	text-align: center;
+}
+
+
+
+.loginbox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+.loginbox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder;
+{
+	color: rgba(255,255,255,.5);
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	background: #efeD40;
+	color: #262626;
+}
+
+.loginbox a
+{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+
+}

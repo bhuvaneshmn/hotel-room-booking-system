@@ -1,0 +1,109 @@
+body {
+	margin: 0 auto;
+	background-image: url(travel-1677347);
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+
+}
+
+table, th, td {
+	width: 50%;
+	margin: auto;
+	border: 1px solid white;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 15px;
+	table-layout: fixed;
+	background: blue;
+	opacity: 0.5;
+	color: white;
+	margin-top: 80px;
+}
+th, td {
+	padding: 20px;
+	opacity: 0.9;
+}
+
+.myform {
+	width:450px;
+	margin:0 auto;
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.logout_btn{
+	margin-top:10px;
+	background-color:#c0392b;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.loginbox4
+{
+	
+	width: 350px;
+	height: 780px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.loginbox4 p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+
+}
+.loginbox4 input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox4 input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder;
+{
+	color: rgba(255,255,255,.5);
+}
+.loginbox4 input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginbox4 input[type="submit"]:hover
+{
+	background: #efeD40;
+	color: #262626;
+}
+.loginbox4 a
+{
+	padding: 10px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+
+}

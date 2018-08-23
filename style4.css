@@ -1,0 +1,63 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.bg3{
+	background-image: url('hotel-1330847.jpg');
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+h1{
+	margin: 0px;
+	font-size: 60px;
+	color: #ffffff;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center; 
+}
+.homebox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 520px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.homebox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.homebox input[type="submit"]:hover
+{
+	background: #efeD40;
+	color: #262626;
+}
+.buttonhome {
+	margin: 0% 0% 0% 55%;
+	background: yellow;
+	color: black;
+	border: none;
+	height: 50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	cursor: pointer;
+	outline: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
